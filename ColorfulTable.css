@@ -27,3 +27,16 @@ tr:nth-child(2n):not(:last-child) td:not(:first-child) {
 tr:nth-child(2n + 1):not(:first-child) td:not(:first-child) {
   background-color: rgb(214, 240, 15);
 }
+.title {
+  font-family: "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: normal;
+  color: red;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.title::after {
+  content: "#05";
+  color: purple;
+}
